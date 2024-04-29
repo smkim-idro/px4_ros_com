@@ -62,9 +62,9 @@ ament_target_dependencies(offboard_control rclcpp px4_msgs)
 install(TARGETS offboard_control DESTINATION lib/${PROJECT_NAME})
 
 # examples/offboard/offboard_control_srv
-add_executable(offboard_control_srv src/examples/offboard/offboard_control_srv.cpp)
-ament_target_dependencies(offboard_control_srv rclcpp px4_msgs)
-install(TARGETS offboard_control_srv DESTINATION lib/${PROJECT_NAME})
+# add_executable(offboard_control_srv src/examples/offboard/offboard_control_srv.cpp)
+# ament_target_dependencies(offboard_control_srv rclcpp px4_msgs)
+# install(TARGETS offboard_control_srv DESTINATION lib/${PROJECT_NAME})
 
 
 ############
